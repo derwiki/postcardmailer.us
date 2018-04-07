@@ -12,4 +12,4 @@ class Instagram
   end
 end
 
-puts Instagram.feed('derwiki')
+# puts Instagram.feed('derwiki')

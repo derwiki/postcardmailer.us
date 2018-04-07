@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+    %title Sinatra App
+    %link{:rel => 'stylesheet', :type => 'text/css', :href => '/stylesheets/styles.css'}
+  %body
+    - @urls.each do |url|
+      %div
+        %img{ src: url }
+

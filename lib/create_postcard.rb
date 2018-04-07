@@ -59,12 +59,3 @@ class CreatePostcard
     }
   end
 end
-
-create_postcard = CreatePostcard.new(
-  { name: 'Adam Derewecki', address1: '960 Wisconsin St', city: 'San Francisco', state: 'CA', zip: '94107' },
-  "https://i.imgur.com/Rm65gHT.jpg",
-  "https://i.imgur.com/Rm65gHT.jpg",
-  dryrun: true
-)
-p create_postcard.template
-create_postcard.run
