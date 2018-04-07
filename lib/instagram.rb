@@ -1,7 +1,6 @@
 require 'json'
 
 class Instagram
-
   # returns 12 by default
   def self.feed(username)
     url = "https://www.instagram.com/#{username}/?__a=1"
@@ -11,5 +10,3 @@ class Instagram
     end
   end
 end
-
-# puts Instagram.feed('derwiki')
